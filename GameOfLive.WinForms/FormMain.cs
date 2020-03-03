@@ -22,9 +22,7 @@ namespace GameOfLive.WinForms
         private void OnFormPaint(object sender, PaintEventArgs e)
         {
             Pen pen = new Pen(Color.FromArgb(255, 0, 0, 0));
-            //e.Graphics.DrawLine(pen, 20, 10, 300, 100);
-            e.Graphics.DrawRectangle
-
+            e.Graphics.DrawLine(pen, 20, 10, 300, 100);
         }
     }
 }
